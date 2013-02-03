@@ -23,7 +23,7 @@
       "build" : {
          "requires" : {
             "Sereal::Decoder" : "0.25",
-            "Sereal::Encoder" : "0.25",
+            "Sereal::Encoder" : "0.26",
             "Test::More" : "0.88"
          }
       },
@@ -35,7 +35,7 @@
       "runtime" : {
          "requires" : {
             "Sereal::Decoder" : "0.25",
-            "Sereal::Encoder" : "0.25",
+            "Sereal::Encoder" : "0.26",
             "perl" : "5.008"
          }
       }
@@ -46,5 +46,5 @@
          "url" : "git://github.com/Sereal/Sereal.git"
       }
    },
-   "version" : "0.250"
+   "version" : "0.260"
 }

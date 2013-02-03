@@ -4,7 +4,7 @@ author:
   - 'Steffen Mueller <smueller@cpan.org>'
 build_requires:
   Sereal::Decoder: 0.25
-  Sereal::Encoder: 0.25
+  Sereal::Encoder: 0.26
   Test::More: 0.88
 configure_requires:
   ExtUtils::MakeMaker: 0
@@ -21,8 +21,8 @@ no_index:
     - inc
 requires:
   Sereal::Decoder: 0.25
-  Sereal::Encoder: 0.25
+  Sereal::Encoder: 0.26
   perl: 5.008
 resources:
   repository: git://github.com/Sereal/Sereal.git
-version: 0.250
+version: 0.260
