@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Sereal
-version:            0.270
+version:            0.280
 abstract:           Fast, compact, powerful binary (de-)serialization
 author:
     - Steffen Mueller <smueller@cpan.org>
