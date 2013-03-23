@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Sereal
-version:            0.320
+version:            0.330
 abstract:           Fast, compact, powerful binary (de-)serialization
 author:
     - Steffen Mueller <smueller@cpan.org>
@@ -9,13 +9,13 @@ distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
-    Sereal::Decoder:  0.32
-    Sereal::Encoder:  0.32
+    Sereal::Decoder:  0.33
+    Sereal::Encoder:  0.33
     Test::More:       0.88
 requires:
     perl:             5.008
-    Sereal::Decoder:  0.32
-    Sereal::Encoder:  0.32
+    Sereal::Decoder:  0.33
+    Sereal::Encoder:  0.33
 resources:
     bugtracker:  https://github.com/Sereal/Sereal/issues
     repository:  git://github.com/Sereal/Sereal.git
