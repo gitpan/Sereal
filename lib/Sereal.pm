@@ -2,9 +2,9 @@ package Sereal;
 use 5.008;
 use strict;
 use warnings;
-our $VERSION = '0.370';
-use Sereal::Encoder 0.37 qw(encode_sereal);
-use Sereal::Decoder 0.37 qw(decode_sereal looks_like_sereal);
+our $VERSION = '2.010';
+use Sereal::Encoder 2.01 qw(encode_sereal);
+use Sereal::Decoder 2.01 qw(decode_sereal looks_like_sereal);
 
 use Exporter 'import';
 our @EXPORT_OK = qw(encode_sereal decode_sereal looks_like_sereal);
@@ -64,6 +64,19 @@ are the same as L<Sereal::Decoder>'s functions of the same names.
 After loading the C<Sereal> module, both C<Sereal::Encoder> and
 C<Sereal::Decoder> are guaranteed to be loaded, so you can use
 their object-oriented interface.
+
+=head1 BUGS, CONTACT AND SUPPORT
+
+For reporting bugs, please use the github bug tracker at
+L<http://github.com/Sereal/Sereal/issues>.
+
+For support and discussion of Sereal, there are two Google Groups:
+
+Announcements around Sereal (extremely low volume):
+L<https://groups.google.com/forum/?fromgroups#!forum/sereal-announce>
+
+Sereal development list:
+L<https://groups.google.com/forum/?fromgroups#!forum/sereal-dev>
 
 =head1 AUTHOR
 
