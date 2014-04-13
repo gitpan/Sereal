@@ -3,13 +3,13 @@ abstract: 'Fast, compact, powerful binary (de-)serialization'
 author:
   - 'Steffen Mueller <smueller@cpan.org>'
 build_requires:
-  Sereal::Decoder: 2.08
-  Sereal::Encoder: 2.08
+  Sereal::Decoder: 2.09
+  Sereal::Encoder: 2.09
   Test::More: 0.88
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.9, CPAN::Meta::Converter version 2.120351'
+generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -20,10 +20,10 @@ no_index:
     - t
     - inc
 requires:
-  Sereal::Decoder: 2.08
-  Sereal::Encoder: 2.08
+  Sereal::Decoder: 2.09
+  Sereal::Encoder: 2.09
   perl: 5.008
 resources:
   bugtracker: https://github.com/Sereal/Sereal/issues
   repository: git://github.com/Sereal/Sereal.git
-version: 2.08
+version: 2.09
