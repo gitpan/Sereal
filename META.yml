@@ -1,29 +1,26 @@
----
-abstract: 'Fast, compact, powerful binary (de-)serialization'
+--- #YAML:1.0
+name:               Sereal
+version:            3.000_003
+abstract:           Fast, compact, powerful binary (de-)serialization
 author:
-  - 'Steffen Mueller <smueller@cpan.org>'
-build_requires:
-  Sereal::Decoder: 3.000_002
-  Sereal::Encoder: 3.000_002
-  Test::More: 0.88
+    - Steffen Mueller <smueller@cpan.org>
+license:            perl
+distribution_type:  module
 configure_requires:
-  ExtUtils::MakeMaker: 0
-dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.9, CPAN::Meta::Converter version 2.120351'
-license: perl
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
-name: Sereal
-no_index:
-  directory:
-    - t
-    - inc
+    ExtUtils::MakeMaker:  0
 requires:
-  Sereal::Decoder: 3.000_002
-  Sereal::Encoder: 3.000_002
-  perl: 5.008
+    perl:             5.008
+    Sereal::Decoder:  3.000_003
+    Sereal::Encoder:  3.000_003
+    Test::More:       0.88
 resources:
-  bugtracker: https://github.com/Sereal/Sereal/issues
-  repository: git://github.com/Sereal/Sereal.git
-version: 3.000_002
+    bugtracker:  https://github.com/Sereal/Sereal/issues
+    repository:  git://github.com/Sereal/Sereal.git
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.48
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
