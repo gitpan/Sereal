@@ -1,0 +1,53 @@
+{
+   "abstract" : "Fast, compact, powerful binary (de-)serialization",
+   "author" : [
+      "Steffen Mueller <smueller@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.9, CPAN::Meta::Converter version 2.120351",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Sereal",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Sereal::Decoder" : "3.001",
+            "Sereal::Encoder" : "3.001",
+            "Test::More" : "0.88"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Sereal::Decoder" : "3.001",
+            "Sereal::Encoder" : "3.001",
+            "perl" : "5.008"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Sereal/Sereal/issues"
+      },
+      "repository" : {
+         "url" : "git://github.com/Sereal/Sereal.git"
+      }
+   },
+   "version" : "3.001"
+}
