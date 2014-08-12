@@ -22,8 +22,8 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Sereal::Decoder" : "3.001_009",
-            "Sereal::Encoder" : "3.001_009",
+            "Sereal::Decoder" : "3.001_010",
+            "Sereal::Encoder" : "3.001_010",
             "Test::More" : "0.88"
          }
       },
@@ -34,8 +34,8 @@
       },
       "runtime" : {
          "requires" : {
-            "Sereal::Decoder" : "3.001_009",
-            "Sereal::Encoder" : "3.001_009",
+            "Sereal::Decoder" : "3.001_010",
+            "Sereal::Encoder" : "3.001_010",
             "perl" : "5.008"
          }
       }
@@ -49,5 +49,5 @@
          "url" : "git://github.com/Sereal/Sereal.git"
       }
    },
-   "version" : "3.001_009"
+   "version" : "3.001_010"
 }
