@@ -4,8 +4,8 @@ author:
   - 'Steffen Mueller <smueller@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: '0'
-  Sereal::Decoder: '3.003'
-  Sereal::Encoder: '3.003'
+  Sereal::Decoder: 3.003_001
+  Sereal::Encoder: 3.003_001
   Test::More: '0.88'
 configure_requires:
   ExtUtils::MakeMaker: '0'
@@ -21,10 +21,10 @@ no_index:
     - t
     - inc
 requires:
-  Sereal::Decoder: '3.003'
-  Sereal::Encoder: '3.003'
+  Sereal::Decoder: 3.003_001
+  Sereal::Encoder: 3.003_001
   perl: '5.008'
 resources:
   bugtracker: https://github.com/Sereal/Sereal/issues
   repository: git://github.com/Sereal/Sereal.git
-version: '3.003'
+version: 3.003_001
