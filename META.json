@@ -32,15 +32,15 @@
       },
       "runtime" : {
          "requires" : {
-            "Sereal::Decoder" : "3.003_002",
-            "Sereal::Encoder" : "3.003_002",
+            "Sereal::Decoder" : "3.003_003",
+            "Sereal::Encoder" : "3.003_003",
             "perl" : "5.008"
          }
       },
       "test" : {
          "requires" : {
-            "Sereal::Decoder" : "3.003_002",
-            "Sereal::Encoder" : "3.003_002",
+            "Sereal::Decoder" : "3.003_003",
+            "Sereal::Encoder" : "3.003_003",
             "Test::More" : "0.88"
          }
       }
@@ -55,5 +55,5 @@
          "url" : "git://github.com/Sereal/Sereal.git"
       }
    },
-   "version" : "3.003_002"
+   "version" : "3.003_003"
 }
